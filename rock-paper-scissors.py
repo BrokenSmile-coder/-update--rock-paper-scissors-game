@@ -57,5 +57,7 @@ while running:
         break
     if quit == "no":
         print("Continue.")
+        continue
+    else:
+        break
 
-    continue
