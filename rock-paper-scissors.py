@@ -21,7 +21,7 @@ while running:
             print("congrulations you win.\n",
                   pcHamle)
         else:
-            print("yanlış işlem.")
+            print("wrong operation.")
 
     if hamle1 == "paper":
         if pcHamle == "paper":
@@ -34,7 +34,7 @@ while running:
             print("defeat.\n",
                   pcHamle)
         else:
-            print("yanlış işlem.")
+            print("wrong operation")
 
     if hamle1 == "scissors":
         if pcHamle == "scissors":
@@ -47,7 +47,7 @@ while running:
             print("defeat.\n",
                   pcHamle)
         else:
-            print("yanlış işlem.")
+            print("wrong operation")
 
     quit = str(input("would you leave game?"))
 
